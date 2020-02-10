@@ -1,0 +1,214 @@
+[
+    {
+        "area": "Al Qahirah",
+        "cities": [
+            "Cairo",
+            "Heliopolis",
+            "Nasr City",
+            "Misr",
+            "Helwan",
+            "Shoubra",
+            "Marg",
+            "Badr",
+            "Almaza",
+            "Mataria",
+            "Garden City",
+            "Kairo",
+            "Shubra",
+            "Tura Al Asmant",
+            "El Matariya",
+            "Nasser City",
+            "New Cairo",
+            "Halwan"
+        ]
+    },
+    {
+        "area": "Ad Daqahliyah",
+        "cities": [
+            "Mansoura",
+            "Damas",
+            "Talkha",
+            "Diyarb Najm",
+            "Aja"
+        ]
+    },
+    {
+        "area": "Al Bahr al Ahmar",
+        "cities": [
+            "Hurghada"
+        ]
+    },
+    {
+        "area": "Al Buhayrah",
+        "cities": [
+            "Ramsis",
+            "Nasr",
+            "Damanhour",
+            "Bardala",
+            "Sadat City",
+            "EzbetKom El-Noss"
+        ]
+    },
+    {
+        "area": "Al Fayyum",
+        "cities": [
+            "Fayoum"
+        ]
+    },
+    {
+        "area": "Al Gharbiyah",
+        "cities": [
+            "Tanta",
+            "Kafr El-Zayat"
+        ]
+    },
+    {
+        "area": "Al Iskandariyah",
+        "cities": [
+            "Al Ibrahimiyah",
+            "Al `Ajami",
+            "Alexandria",
+            "Borg El Arab",
+            "Sidi Bishr",
+            "Smouha"
+        ]
+    },
+    {
+        "area": "Al Ismailiyah",
+        "cities": [
+            "Ismailia"
+        ]
+    },
+    {
+        "area": "Giza",
+        "cities": [
+            "6th of October City",
+            "Agouza",
+            "Al Haram",
+            "Al Kawm al Ahmar",
+            "Awsim",
+            "Az Zamalik",
+            "Dokki",
+            "Imbabah",
+            "Faisal",
+            "Giza",
+            "Mohandessin"
+        ]
+    },
+    {
+        "area": "Al Minufiyah",
+        "cities": [
+            "Menouf",
+            "Tala"
+        ]
+    },
+    {
+        "area": "Al Minya",
+        "cities": [
+            "Minia"
+        ]
+    },
+    {
+        "area": "Al Qalyubiyah",
+        "cities": [
+            "Khanka",
+            "Banha",
+            "Qalyub"
+        ]
+    },
+    {
+        "area": "Al Wadi al Jadid",
+        "cities": [
+            "Al Wadi al Jadid"
+        ]
+    },
+    {
+        "area": "As Suways",
+        "cities": [
+            "Suez"
+        ]
+    },
+    {
+        "area": "Ash Sharqiyah",
+        "cities": [
+            "Kafr El Sheikh",
+            "Zagazig",
+            "Belbeis",
+            "Hehia",
+            "`Mit Suhayl",
+            "10th Of Ramadan City",
+            "Al `Asluji",
+            "Kafr `Abdalla Agha"
+        ]
+    },
+    {
+        "area": "Aswan",
+        "cities": [
+            "Aswan"
+        ]
+    },
+    {
+        "area": "Asyut",
+        "cities": [
+            "Assiut"
+        ]
+    },
+    {
+        "area": "Bani Suwayf",
+        "cities": [
+            "Bani Suwayf"
+        ]
+    },
+    {
+        "area": "Bur Sa'id",
+        "cities": [
+            "Port Said"
+        ]
+    },
+    {
+        "area": "Dumyat",
+        "cities": [
+            "Damietta"
+        ]
+    },
+    {
+        "area": "Janub Sina",
+        "cities": [
+            "Sharm Ash Shaykh"
+        ]
+    },
+    {
+        "area": "Kafr ash Shaykh",
+        "cities": [
+            "Kafr El-Sheikh",
+            "Fowa",
+            "Dessouk"
+        ]
+    },
+    {
+        "area": "Matruh",
+        "cities": [
+            "Sohag"
+        ]
+    },
+    {
+        "area": "Qina",
+        "cities": [
+            "Qena",
+            "Luxor"
+        ]
+    },
+    {
+        "area": "Shamal Sina",
+        "cities": [
+            "El Aresh",
+            "Rafah"
+        ]
+    },
+    {
+        "area": "Suhaj",
+        "cities": [
+            "Balyana"
+        ]
+    }
+]

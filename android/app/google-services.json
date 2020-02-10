@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "420299240194",
+    "firebase_url": "https://citystars-f5156.firebaseio.com",
+    "project_id": "citystars-f5156",
+    "storage_bucket": "citystars-f5156.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420299240194:android:b7a0655549795935",
+        "android_client_info": {
+          "package_name": "com.kns.citystars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420299240194-ir0hkv2b1m5i6rs00311aq47gshmjbj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kns.citystars",
+            "certificate_hash": "25790e2c8b1b654727720c4bbf3016b329a0b912"
+          }
+        },
+        {
+          "client_id": "420299240194-je21t3r8qamubq2n807f4rb5mbukv4l4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kns.citystars",
+            "certificate_hash": "90818ff08dc432e8330925a3b1e697975bb2d4ad"
+          }
+        },
+        {
+          "client_id": "420299240194-m2i5aetijpguvviouosldvo2s9l2htju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kns.citystars",
+            "certificate_hash": "529bf07e3f7a9f0f4f36a6316ac208ca66a8c3a8"
+          }
+        },
+        {
+          "client_id": "420299240194-ub0hsosg7r5m9obs04fmdpuhjqgn7gbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiojuKc2DX6kkuufy08g-pNMt0fdnhGcw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420299240194-ub0hsosg7r5m9obs04fmdpuhjqgn7gbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420299240194:android:dbb30e6c364ef9b8",
+        "android_client_info": {
+          "package_name": "com.kns.mallframe.citystars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420299240194-lnvjaf5jggu15bjcjphc4di5q6fstk09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kns.mallframe.citystars",
+            "certificate_hash": "2f7f1aa18bd7560f794ec0db13ece9d5224e9364"
+          }
+        },
+        {
+          "client_id": "420299240194-ub0hsosg7r5m9obs04fmdpuhjqgn7gbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiojuKc2DX6kkuufy08g-pNMt0fdnhGcw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420299240194-ub0hsosg7r5m9obs04fmdpuhjqgn7gbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

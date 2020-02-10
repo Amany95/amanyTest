@@ -1,0 +1,105 @@
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+
+import {Platform, StyleSheet, View,} from 'react-native';
+
+import FixedHeightWindowedListView from './FixedHeightWindowedListView';
+import AlphabetPicker from './AlphabetPicker';
+
+
+class AtoZList extends Component {
+    static propTypes = {
+        sectionHeaderHeight: PropTypes.number.isRequired,
+        cellHeight: PropTypes.number.isRequired,
+        data: PropTypes.object.isRequired,
+        renderCell: PropTypes.func,
+        renderSection: PropTypes.func
+    };
+
+    constructor(props, context) {
+        super(props, context);
+
+        let sectionHeight = props.sectionHeaderHeight || 35;
+        let cellHeight = props.cellHeight || 95;
+
+        var dataSource = new FixedHeightWindowedListView.DataSource({
+            getHeightForSectionHeader: (sectionId) => {
+                return sectionHeight;
+            },
+            getHeightForCell: (sectionId) => {
+                return cellHeight;
+            }
+        });
+
+        this.state = {
+            dataSource: dataSource.cloneWithCellsAndSections(this.props.data),
+            alphabet: Object.keys(this.props.data)
+        };
+
+        this.dataSource = dataSource;
+    }
+
+
+    componentWillReceiveProps(nextProps) {
+        if (this.props.data !== nextProps.data) {
+            this.setState({
+                dataSource: this.dataSource.cloneWithCellsAndSections(nextProps.data),
+                alphabet: Object.keys(nextProps.data)
+            });
+        }
+    }
+
+
+    render() {
+        this._alphabetInstance = this._alphabetInstance || (
+            <View style={styles.alphabetSidebar}>
+                <AlphabetPicker alphabet={this.state.alphabet} onTouchLetter={this._onTouchLetter.bind(this)}/>
+            </View>
+        );
+
+        return (
+            <View style={{flex: 1}}>
+                <View style={styles.container}>
+                    <FixedHeightWindowedListView
+                        ref={view => this._listView = view}
+                        dataSource={this.state.dataSource}
+                        renderCell={this.props.renderCell}
+                        renderSectionHeader={this.props.renderSection}
+                        incrementDelay={100}
+                        initialNumToRender={100}
+                        pageSize={Platform.OS === 'ios' ? 15 : 10}
+                        maxNumToRender={1000}
+                        numToRenderAhead={100}
+                        numToRenderBehind={10}
+                    />
+                </View>
+
+                {this._alphabetInstance}
+            </View>
+        );
+    }
+
+    _onTouchLetter(letter) {
+        this._listView.scrollToSectionBuffered(letter);
+    }
+}
+
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        paddingRight: 25,
+        backgroundColor: '#fff',
+    },
+    alphabetSidebar: {
+        position: 'absolute',
+        backgroundColor: 'transparent',
+        top: 0,
+        bottom: 0,
+        right: 0,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+});
+
+export {AtoZList}

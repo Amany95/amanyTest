@@ -1,0 +1,10 @@
+<resources>
+
+
+    <string name="app_name" translatable="false">Citystars</string>
+    <string name="google_maps_key" translatable="false">AIzaSyCUddWRpotRxc5iw5cSCoNFVkgX8UlhA3o</string>
+    <string name="facebook_app_id" translatable="false">672572179510675</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb672572179510675</string>
+    <string name="kontakt_io_api_key" translatable="false">ATTCbJIgCBjSuwJAoTQHizFYVDjhJIQA</string>
+
+</resources>

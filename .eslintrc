@@ -1,0 +1,144 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jquery": true,
+    "mocha": true,
+    "es6": true
+  },
+  "globals": {
+    "__DEV__": true,
+    "require": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "rules": {
+    "no-console": "off",
+    "no-loop-func": "error",
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxEOF": 2
+      }
+    ],
+    "no-var": "error",
+    "no-extra-boolean-cast": "error",
+    "no-extra-parens": "error",
+    "no-extra-semi": "error",
+    // disallow unnecessary semicolons
+    "brace-style": [
+      "error",
+      "stroustrup"
+    ],
+    "curly": "error",
+    "camelcase": [
+      "warn",
+      {
+        "properties": "never"
+      }
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "handle-callback-err": [
+      "error",
+      "^(err|error|errors)$"
+    ],
+    "eqeqeq": "error",
+    "no-underscore-dangle": "off",
+    "no-multi-spaces": "error",
+    "space-unary-ops": [
+      "error",
+      {
+        "words": true,
+        "nonwords": false
+      }
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "guard-for-in": "error",
+    "no-return-assign": "error",
+    "no-undef": "error",
+    "comma-style": [
+      "error",
+      "last"
+    ],
+    "comma-spacing": [
+      1,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never"
+      }
+    ],
+    "space-in-parens": [
+      "error",
+      "never"
+    ],
+    "no-shadow": [
+      "error",
+      {
+        "allow": [
+          "resolve",
+          "reject",
+          "error",
+          "err"
+        ]
+      }
+    ],
+    "arrow-body-style": [
+      "error",
+      "always"
+    ],
+    "arrow-parens": [
+      "error",
+      "always"
+    ],
+    "no-mixed-spaces-and-tabs": [
+      2,
+      "smart-tabs"
+    ],
+    "no-confusing-arrow": "error",
+    "no-const-assign": "error",
+    "no-constant-condition": "error",
+    "no-unreachable": "error",
+    "no-path-concat": "error",
+    "prefer-arrow-callback": [
+      "error",
+      {
+        "allowNamedFunctions": true
+      }
+    ],
+    "prefer-template": "error",
+    "no-useless-concat": "error"
+  }
+}

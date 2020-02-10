@@ -1,0 +1,83 @@
+{
+  "name": "citystars_react_native",
+  "version": "2.2.2",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android-bundle": "/usr/local/bin/react-native bundle --platform android --entry-file index.js --reset-cache --bundle-output android/app/src/main/assets/index.android.bundle --dev false",
+    "ios-bundle": "/usr/local/bin/react-native bundle --platform ios --entry-file index.js --reset-cache --bundle-output ios/bundle/main.jsbundle --dev false --assets-dest ios/bundle/",
+    "siri-wave": "cd ./node_modules/react-native-siri-wave-view/ios/ && pod install",
+    "pod-install": "cd ./ios/ && pod install",
+    "postinstall": "npm run siri-wave && npm run pod-install"
+  },
+  "dependencies": {
+    "babel-plugin-transform-remove-console": "6.9.4",
+    "lodash": "4.17.10",
+    "mechanic-map": "0.12.3",
+    "moment": "2.22.1",
+    "prop-types": "latest",
+    "react": "16.2.0",
+    "react-native": "0.55.4",
+    "react-native-af-video-player": "0.1.9",
+    "react-native-audio-toolkit": "1.0.6",
+    "react-native-bluetooth-listener": "1.0.3",
+    "react-native-camera": "1.3.1",
+    "react-native-communications": "2.2.1",
+    "react-native-datepicker": "1.7.2",
+    "react-native-easy-toast": "1.1.0",
+    "react-native-fbsdk": "0.8.0",
+    "react-native-fetch-blob": "0.10.8",
+    "react-native-global-props": "1.1.3",
+    "react-native-google-analytics-bridge": "6.1.0",
+    "react-native-i18n": "2.0.12",
+    "react-native-image-gallery": "2.1.5",
+    "react-native-image-picker": "0.26.7",
+    "react-native-img-cache": "1.5.3",
+    "react-native-iphone-x-helper": "1.2.0",
+    "react-native-keep-awake": "3.0.1",
+    "react-native-linear-gradient": "2.4.0",
+    "react-native-mall-frame-client": "1.1.6",
+    "react-native-maps": "0.20.1",
+    "react-native-onesignal": "3.2.8",
+    "react-native-orientation": "3.1.3",
+    "react-native-qrcode-scanner": "0.0.30",
+    "react-native-scrollable-tab-view": "0.8.0",
+    "react-native-section-list-get-item-layout": "2.2.3",
+    "react-native-select-input-ios": "1.2.0",
+    "react-native-share": "1.0.27",
+    "react-native-siri-wave-view": "0.0.5",
+    "react-native-swiper": "1.5.13",
+    "react-native-timer": "1.3.3",
+    "react-native-vector-icons": "4.6.0",
+    "react-native-video": "2.0.0",
+    "react-navigation": "1.0.0-beta.27",
+    "react-redux": "5.0.7",
+    "redux": "3.7.2",
+    "redux-logger": "3.0.6",
+    "redux-persist": "5.9.1",
+    "redux-persist-filesystem-storage": "1.2.0",
+    "redux-thunk": "2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "6.1.2",
+    "babel-jest": "22.2.2",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "2.13.1",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.9.2",
+    "eslint-plugin-jsx-a11y": "1.5.3",
+    "eslint-plugin-react": "5.2.2",
+    "jest": "22.3.0",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts",
+      "./map"
+    ]
+  }
+}
