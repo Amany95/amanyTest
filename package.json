@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "babel-plugin-transform-remove-console": "6.9.4",
-    "lodash": "4.17.10",
+    "lodash": "4.17.21",
     "mechanic-map": "0.12.3",
     "moment": "2.22.1",
     "prop-types": "latest",
