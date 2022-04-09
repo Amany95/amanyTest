@@ -15,7 +15,7 @@
     "babel-plugin-transform-remove-console": "6.9.4",
     "lodash": "4.17.10",
     "mechanic-map": "0.12.3",
-    "moment": "2.22.1",
+    "moment": "2.29.2",
     "prop-types": "latest",
     "react": "16.2.0",
     "react-native": "0.55.4",
